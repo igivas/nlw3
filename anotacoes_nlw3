@@ -1,0 +1,48 @@
+Anotações Aula NLW3
+
+
+Aula 01
+
+JSX é o html dentro do java script.
+
+Aula 02
+
+Métodos
+
+// Rota = conjunto
+// Recurso = usuário
+// Métodos HTTP = GET, POST, PUT, DELETE
+// Parâmetros 
+
+//GET: Buscar ou listar uma informação
+//POST: Criar alguma nova informação
+
+//PUT: Atualizar uma informação existente
+//DELETE: Deletar uma informação existente
+
+//Query Params: http://localhost:3333/users?search=diego
+//Route Params: http://localhost:3333/users/1 (Identificar um recurso)
+// Body: http://localhost:3333/users
+
+public async up(queryRunner: QueryRunner): Promise<void>
+{
+//Realizar Alterações
+//Criar tabela, criar um nono campo, deletar algum campo
+}
+
+public async down(queryRunner: QueryRunner): Promise<void> {
+//Desfazer o que foi feito no up
+
+}
+
+
+
+Corpo da requisição
+
+Corpo (Request Body): Dados para criação ou atualização de um registro
+Route Params: Identificar qual recurso eu quero atualizar ou deletar 
+Query Params: Paginação, filtros, ordenação
+
+Migrations- controlam a versão do banco de dados
+
+
